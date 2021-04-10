@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="energetic-beds.surge.sh">
+    <a href="https://energetic-beds.surge.sh">
       Demo
     </a>
     <span> | </span>
