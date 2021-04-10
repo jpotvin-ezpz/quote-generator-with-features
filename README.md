@@ -52,6 +52,7 @@ Introduce your projects by taking a screenshot or a gif. Try to tell visitors a 
 
 - [React](https://reactjs.org/)
 - [Sass](https://sass-lang.com)
+- [Quote Garden API](https://pprathameshmore.github.io/QuoteGarden/)
 
 ## Features
 
@@ -79,6 +80,8 @@ $ npm start
 ## Acknowledgements
 
 <!-- This section should list any articles or add-ons/plugins that helps you to complete the project. This is optional but it will help you in the future. For example: -->
+
+[QuoteGarden](https://pprathameshmore.github.io/QuoteGarden/)
 
 ## Contact
 

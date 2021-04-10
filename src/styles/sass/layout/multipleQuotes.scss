@@ -1,0 +1,33 @@
+.quotes-main--wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  padding-top: 100px;
+}
+
+.quotes-wrapper {
+  grid-column: 2 / 3;
+}
+
+.quotes-author {
+  font-size: 3.6rem;
+  color: #333333;
+  padding-left: 100px;
+}
+
+.quotes-list {
+  list-style-type: none;
+  font-size: 3.6rem;
+}
+
+.quote-multiple {
+  border-left: thick solid #f7df94;
+  padding-left: 100px;
+  margin: 140px 0;
+}

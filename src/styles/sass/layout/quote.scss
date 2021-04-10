@@ -1,0 +1,14 @@
+.quote-author--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 3.6rem;
+  border-left: thick solid #f7df94;
+  padding-left: 100px;
+}

@@ -1,0 +1,27 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin-top: 20vh;
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 2.4rem;
+  font-size: 1.4rem;
+  color: #828282;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+}
+
+@import "./layout/getNew.scss", "./layout/quote.scss", "./layout/author.scss",
+  "./layout/multipleQuotes.scss";

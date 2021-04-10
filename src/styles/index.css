@@ -1,0 +1,136 @@
+html {
+  font-size: 62.5%;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  margin-top: 20vh;
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  position: fixed;
+  bottom: 2.4rem;
+  font-size: 1.4rem;
+  color: #828282;
+  text-align: center;
+  width: 100%;
+  z-index: 3;
+}
+
+.random-quote {
+  z-index: 2;
+  position: absolute;
+  top: 50px;
+  right: 100px;
+  display: flex;
+  place-items: center;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 1rem;
+  color: #333333;
+  font-size: 1.8rem;
+}
+.random-quote .material-icons {
+  padding-left: 5px;
+  color: #333333;
+}
+.random-quote:hover, .random-quote:focus {
+  background: #cacaca;
+  border: thin outset #cacaca;
+  border-radius: 12px;
+}
+.random-quote:active {
+  border: thin inset #cacaca;
+}
+
+.quote-author--wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  width: 600px;
+  margin: 0 auto;
+}
+
+.quote {
+  font-size: 3.6rem;
+  border-left: thick solid #f7df94;
+  padding-left: 100px;
+}
+
+.aut-gen--wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 110px;
+  margin-left: 70px;
+  width: 600px;
+  padding: 50px 0 50px 30px;
+  transition: all 0.5s ease;
+}
+.aut-gen--wrapper:hover {
+  background: #333333;
+  color: white;
+}
+.aut-gen--wrapper:hover .genre {
+  color: #828282;
+}
+
+.author {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.genre {
+  font-size: 1.4rem;
+}
+
+.material-icons.right-arrow {
+  font-size: 3rem;
+  color: white;
+  margin-right: 50px;
+}
+
+.quotes-main--wrapper {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  right: 0;
+  min-height: 100vh;
+  background: white;
+  display: grid;
+  grid-template-columns: 1fr 600px 1fr;
+  padding-top: 100px;
+}
+
+.quotes-wrapper {
+  grid-column: 2/3;
+}
+
+.quotes-author {
+  font-size: 3.6rem;
+  color: #333333;
+  padding-left: 100px;
+}
+
+.quotes-list {
+  list-style-type: none;
+  font-size: 3.6rem;
+}
+
+.quote-multiple {
+  border-left: thick solid #f7df94;
+  padding-left: 100px;
+  margin: 140px 0;
+}
+
+/*# sourceMappingURL=index.css.map */
